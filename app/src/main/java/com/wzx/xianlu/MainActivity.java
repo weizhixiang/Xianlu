@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity implements LocationSource,
 
     public byte[] Bitmap2Bytes(Bitmap bm) {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        bm.compress(Bitmap.CompressFormat.JPEG, 80, baos);
+        bm.compress(Bitmap.CompressFormat.JPEG, 70, baos);
         return baos.toByteArray();
     }
 
